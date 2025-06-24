@@ -1,11 +1,11 @@
 const buttons = document.querySelectorAll('.mood');
-const moodTitle = document.getElementById('#mood_title');
-const mood_message = document.getElementById('#mood_message');
+const moodTitle = document.getElementById('mood_title');
+const mood_message = document.getElementById('mood_message');
 const body = document.body;
 
 const moodMap = {
   happy: {
-     color: '#ffe066',
+     color: '#caffbf',
       title: 'You are feeling Happy 😊',
       message: 'Smile big! Today is full of sunshine and good vibes.'
     },
@@ -20,7 +20,7 @@ const moodMap = {
       message: 'So much energy! Let that excitement guide your day!'
     },
     chill: {
-      color: '#caffbf',
+      color: '#ffe066',
       title: 'You are feeling Chill 😌',
       message: 'Deep breaths. Peaceful moments are the best ones.'
     }
